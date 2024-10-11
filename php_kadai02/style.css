@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffbea;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 60%;
+    background-color: #fff7cc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #ffbf00;
+    margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+    color: #ffbf00;
+}
+label {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.radio-group {
+    margin-bottom: 20px;
+}
+.radio-group div {
+    margin-bottom: 10px;
+}
+.radio-group label {
+    display: inline-block;
+    margin-left: 10px;
+}
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffbf00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #e6ac00;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.message-box {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    text-align: center; /* 中央揃え */
+}
+.message-box a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+.message-box a:hover {
+    text-decoration: underline;
+}
+.message-box strong {
+    font-weight: bold;
+}
