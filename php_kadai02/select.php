@@ -2,7 +2,7 @@
 // 1. DB接続
 try {
     // $pdo = new PDO('mysql:dbname=gs_participants_db;charset=utf8;host=localhost', 'root', ''); // DB接続設定を確認
-    $pdo = new PDO('mysql:dbname=socialfirm-lab_participants;charset=utf8;host=mysql3101.db.sakura.ne.jp','socialfirm-lab_participants','Dogforest51');
+    $pdo = new PDO('mysql:dbname=socialfirm-lab_participants;charset=utf8;host=','','');
 
 } catch (PDOException $e) {
     exit('DB_CONNECT: ' . $e->getMessage());
