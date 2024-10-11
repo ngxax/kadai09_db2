@@ -7,10 +7,10 @@ function h($str){
 //DB接続関数：db_conn()
 function db_conn(){
     try {
-        $db_name = "socialfirm-lab_participants";    //データベース名
-        $db_id   = "socialfirm-lab_participants";      //アカウント名
-        $db_pw   = "Dogforest51";          //パスワード：XAMPPはパスワード無し or MAMPはパスワード”root”に修正してください。
-        $db_host = "mysql3101.db.sakura.ne.jp"; //DBホスト
+        $db_name = "";    //データベース名
+        $db_id   = "";      //アカウント名
+        $db_pw   = "";          //パスワード：XAMPPはパスワード無し or MAMPはパスワード”root”に修正してください。
+        $db_host = ""; //DBホスト
 
         // $db_name = "gs_participants_db";    //データベース名
         // $db_id   = "root";      //アカウント名
