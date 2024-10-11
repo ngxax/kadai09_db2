@@ -8,7 +8,7 @@ $memo       = $_POST["memo"];
 //2. DB接続
 try {
     //データベース接続設定（MAMPではパスワードが 'root', XAMPPではパスワードなし）
-    $pdo = new PDO('mysql:dbname=socialfirm-lab_participants;charset=utf8;host=mysql3101.db.sakura.ne.jp', 'socialfirm-lab_participants', 'Dogforest51');
+    $pdo = new PDO('mysql:dbname=socialfirm-lab_participants;charset=utf8;host=', '', '');
     // $pdo = new PDO('mysql:dbname=gs_participants_db;charset=utf8;host=localhost', 'root', '');
 
 } catch (PDOException $e) {
